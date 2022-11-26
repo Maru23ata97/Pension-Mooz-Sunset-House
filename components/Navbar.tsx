@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg bg-light">
+  <nav className="navbar navbar-expand-lg bg-light ">
     <div className="container-fluid">
-      <a className="navbar-brand text-primary" href="#">
+      <a className="navbar-brand " href="#">
         Mooz Sunset House
       </a>
       <button
@@ -25,7 +25,7 @@ const Navbar = () => (
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/contacts">
               Nos contacts
             </a>
           </li>

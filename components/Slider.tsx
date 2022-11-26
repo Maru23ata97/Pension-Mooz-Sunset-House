@@ -30,80 +30,69 @@ const Slider = () => (
       className="parallax-bg"
       style={{
         'background-image':
-          'url(https://st2.depositphotos.com/1741969/7586/i/600/depositphotos_75866931-stock-photo-glitter-vintage-lights-background-light.jpg)',
+          'url(https://www.catlante-catamarans.com/lib/data/destinations_fr/polynesie-tahiti-raiatea-11jours/photos/05_polynesie-tahiti-coucher-soleil.jpg)',
       }}
       data-swiper-parallax="-23%"
     ></div>
     <SwiperSlide>
-      <div className="title fw-bold" data-swiper-parallax="-300">
-        Mon Portfolio
+      <div className="title fw-bold text-center" data-swiper-parallax="-300">
+      <hr className="border border-5" />
+        Pension MOOZ SUNSET HOUSE
       </div>
       <hr className="border border-5" />
       <div className="subtitle fw-bolder" data-swiper-parallax="-200">
-        En savoir plus
+        Son emplacement
       </div>
-      <hr className="border border-5" />
       <div className="text fs-5" data-swiper-parallax="-100">
         <p>
-          Le contenu vient avant  le design. Un design sans contenu n’est pas un
-          design, c’est une décoration ». Prenez donc le temps d’identifier le
-          contenu qui s’inscrira dans votre création, vous éviterez de faire les
-          choses à l’envers.
+        Situé sur l'île de Moorea, l’établissement MOOZ SUNSET HOUSE bénéficie d'un emplacement idéal pour pratiquer la plongée sous-marine ou avec tuba, entre une plage privée et un récif de corail. Les hébergements possèdent une terrasse ou un balcon privés offrant une vue magnifique sur le lagon.
+
+         Vous aurez la possibilité de pêcher depuis le ponton privé ou de vous détendre dans un hamac sur la plage.
         </p>
       </div>
       <a
         className="btn btn-outline-success text-info fw-bold"
-        href="/Portfolio"
+        href="#"
       >
-        Visite mon portfolio
+        Voir l'emplacement
       </a>
     </SwiperSlide>
     <SwiperSlide>
-      <div className="title fw-bold" data-swiper-parallax="-300">
-        Mon Blog
+      <div className="title fw-bold text-center" data-swiper-parallax="-300">
+      <hr className="border border-5" />
+        'Ia Ora Na, Maeva i 'Aimeho'
       </div>
       <hr className="border border-5" />
       <div className="subtitle fw-bolder" data-swiper-parallax="-200">
-        A la découverte du Web Developer
+       Découvre nos chambres
       </div>
-      <hr className="border border-5" />
       <div className="text fs-5" data-swiper-parallax="-100">
         <p>
-          C’est sur les épaules du développeur web que repose la responsabilité
-          du bon fonctionnement d’un site internet (nouveau service, maintenance
-          du site, rapidi­té…). Pour s’en assurer, il effectue de nombreux tests
-          pour vérifier le bon fonctionne­ment des différentes fonctionnalités
-          mises en place. Le développeur web peut aussi apporter des solutions
-          aux problèmes présents dans un site déjà en ligne et détectés par le
-          client ou par les internautes. Dans ce cas, le développeur procède au
-          diagnostic et à la mise en ligne des corrections, sans interruption du
-          fonctionnement du site. Il assure le suivi et la correction des
-          problèmes rencontrés dans le temps. Le développeur effectue parfois la
-          formation du client à la réception du site.
+        Les chambres sont équipées d’une télévision. Certaines comprennent un coin salon propice à la détente après une journée bien remplie. Plusieurs offrent une vue sur la mer ou le jardin. Leur salle de bains privative est pourvue d’un sèche-cheveux et d’articles de toilette gratuits.
+
+        Notre établissement compte également un bureau d’excursions.
+
+        Vous aurez accès à une plage privée et le bureau d'excursions assure la location de kayaks, paddle, jet-ski et la location de voitures. Vous pourrez pratiquer diverses activités dans les environs, comme le golf et la randonnée. L’aéroport de Temae, le plus proche, se trouve à 1 km du MOOZ SUNSET HOUSE.
         </p>
       </div>
-      <a className="btn btn-outline-success text-info fw-bold" href="/Blog">
-        Visite mon blog
+      <a className="btn btn-outline-success text-info fw-bold" href="/Chambres">
+        Nos chambres
       </a>
     </SwiperSlide>
     <SwiperSlide>
       <div className="title fw-bold" data-swiper-parallax="-300">
-        Clone Netflix
+      <hr className="border border-5" />
+        L'histoire de 'Aimeho
       </div>
       <hr className="border border-5" />
       <div className="subtitle fw-bolder" data-swiper-parallax="-200">
-        Mon projet
+        Légende
       </div>
-      <hr className="border border-5" />
       <div className="text fs-5" data-swiper-parallax="-100">
         <p>
-          L'enseignement de l'informatique ne peut faire de personne un
-          programmeur expert plus que l'étude des pinceaux et du pigment peut
-          faire de quelqu'un un peintre expert. Attention il ne faut pas mal
-          interpréter cette citation, bien sûr que l'enseignement théorique est
-          indispensable pour devenir développeur, mais cela ne suffit pas à
-          devenir expert, il faut de l'expérience, essayer, tester, s'entrainer
-          et mettre les mains dans le code pendant plusieurs années !
+        Autrefois, Temaiatea et son épouse demeuraient à Tupuai-Manu qui s’appelle désormais Maiao. La femme tomba enceinte et accoucha d’un œuf. L’époux prit l’œuf et le porta dans une petite grotte du rivage nommée Vaionini où il le déposa.
+        Une nuit, la femme eut une vision dans son sommeil. Elle vit qu’elle avait mis au monde un garçon tout jaune. Elle se réveilla et raconta ce songe à son époux. Quand vint le jour, l’homme partit observer l’œuf qu’il avait laissé dans la grotte. Les lieux atteints, il constata que l’œuf avait éclos : c’était un bébé lézard. Temaiatea donna à ce lézard le nom de Moo-rea*.
+        Lui et sa femme nourrirent Moo-rea dans cette petite grotte jusqu’à ce qu’il soit grand. Il devint un lézard énorme. C’est pourquoi la femme prit peur et qu’elle dit à son époux : « Il nous faut abandonner Moo-rea , sinon, bientôt, il nous mangera. »Le mari n’accepta pas, disant : « C’est tout de même notre fils aîné ! » Mais comme le femme insistait, l’homme construisit une pirogue pour eux deux, ils montèrent à bord de cette pirogue, ramèrent en direction du levant jusqu’à Tahiti. Quant à Moo-rea, il ne cessait de se morfondre en pensant à ses parents qui l’avaient nourri. Et comme cela faisait longtemps que les Temaiatea ne lui avaient pas apporté à manger, il sut qu’on l’avait abandonné . Il se jeta à la mer et nagea vers le levant. Lorsque Moo-rea eut perdu la terre de vue, il affronta le courant Teara-Veri*, puis en sortit. Ce courant n’est pas hérissé de vaguelettes mais sa course est comme celle du scolopendre. Moo-rea fit face à un second courant que l’on appelle Tefara* car c’est un courant « épineux » comme le pandanus. Moo-rea se dégagea de ce courant mais il était épuisé. Il affronta un troisième courant nommé Tepua* car c’est un courant puissant : l’écume de la mer est comme de la mousse de savon. C’est dans ce courant que Moo-rea trouva la mort. Son corps dériva et s’échoua à Aimeho. Aimeho est l’ancien nom de l’île de Moorea. Au petit matin, deux hommes partirent à la pêche. Lorsqu’ils parvinrent au rivage, ils virent cette énorme chose gisant sur le sable, ils coururent avertir les gens en criant : « Un lézard jaune ! Un lézard jaune ! » Depuis ce jour on nomme Aimeho, Moo-rea c’est à dire Moorea.
         </p>
       </div>
       <a className="btn btn-outline-success text-info fw-bold" href="/Netflix">

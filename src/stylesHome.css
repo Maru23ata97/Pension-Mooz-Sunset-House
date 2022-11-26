@@ -33,14 +33,14 @@ body {
 }
 
 .mySwiper {
-  height: 100vh;
+  height: 130vh;
 }
 .parallax-bg {
   position: absolute;
   left: 0;
   top: 0;
   width: 130%;
-  height: 100vh;
+  height: 130vh;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
