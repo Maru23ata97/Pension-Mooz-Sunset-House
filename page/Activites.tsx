@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Navbar from '../components/Navbar';
 import SliderActivites from '../components/SliderActivites';
-import Footer from  '../components/Footer';
 const Activites = () => (
   <div className="bg-Activites">
     <Navbar />
@@ -44,7 +43,6 @@ const Activites = () => (
         </p>
       </div>
     </div>
-    <Footer/>
   </div>
 );
 

@@ -9,7 +9,6 @@ export default function App() {
     <div>
       <Navbar />
       <Slider />
-      <Footer/>
       <h1></h1>
       <p></p>
     </div>
