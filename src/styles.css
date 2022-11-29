@@ -33,11 +33,25 @@ body {
 
 /* bg Layout */
 .bg-chambres {
-  background-color :azure;
+  background-color: azure;
 }
 
 .bg-Activites {
-  background-color: silver ;
+  background-color: azure;
 }
 
+.bg-Location {
+  background-color: azure;
+}
 
+.bg-Restaurant {
+  background-color: azure;
+}
+
+.bg-Services {
+  background-color: azure;
+}
+
+.bg-Contacts {
+  background-color: azure;
+}

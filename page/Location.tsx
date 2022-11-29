@@ -13,7 +13,6 @@ const Location = () => (
     <div className="container mt-5">
       <SliderLocation collectionTarget="location-carrousel" />
       <div className="location mb-3 fw-light">
-        <p className="text-start">Ma péniche, c'est bien plus qu'une maison. Elle me ressemble. Comme une île entourée d'eau on peut toujours en faire le tour, même les jours de grand vent. Une île qui aurait envie de voyager, comme moi j'ai envie de voler.</p>
         <p>
           <br />
           Durée : 24 heures  <br />
@@ -30,7 +29,6 @@ const Location = () => (
       <h3 className="text-center">Nos Scooters</h3>
       <SliderLocation collectionTarget="scooter-carrousel" />
       <div className="location "> 
-        <p className="text-start">Ma péniche, c'est bien plus qu'une maison. Elle me ressemble. Comme une île entourée d'eau on peut toujours en faire le tour, même les jours de grand vent. Une île qui aurait envie de voyager, comme moi j'ai envie de voler.</p>
         <p className="text-start fw-light mb-3">
           Durée : 24 heures  <br />
           Prix : 6000 XPF <br />
