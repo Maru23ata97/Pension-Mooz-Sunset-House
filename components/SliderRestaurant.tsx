@@ -39,7 +39,7 @@ export default function SliderRestaurant({ collectionTarget }) {
       {data.map((slide) => (
         <SwiperSlide className="p-0" style={{ height: '12rem', width: '100%' }}>
           <img
-          className="h_100"
+          className="h-100"
           src={slide.url}
           style={{
               minWidth: '100% !important',

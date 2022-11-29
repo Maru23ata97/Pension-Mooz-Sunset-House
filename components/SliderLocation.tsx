@@ -37,10 +37,15 @@ export default function SliderLocation({ collectionTarget }) {
       className="mySwiper"
     >
       {data.map((slide) => (
-        <SwiperSlide style={{ height: '12rem', width: '100%' }}>
+        <SwiperSlide className="p-0" style={{ height: '12rem', width: '100%' }}>
           <img
+            className="h-100"
             src={slide.url}
-            style={{ minWidth: '100%', objectFit: 'cover', height: '100%' }}
+            style={{
+              minWidth: '100% !important',
+              objectFit: 'cover',
+              height: '100% !important',
+            }}
           />
         </SwiperSlide>
       ))}

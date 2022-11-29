@@ -8,17 +8,17 @@ const Chambres = () => (
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-6 d-flex flex-column justify-content-center">
-          <h3 className="text-dark">Nos chambres en pilotis</h3>
-          <h4 className="text-dark">
+          <h3 className="text-dark text-center">Nos chambres en pilotis</h3><hr/>
+          <p className=" fw-light mb-3">
             Descrption de nos pilotis <br />
             Capacités d'accueil : 4 personnes <br />
             Format du lit : king size <br />
             Format du canape-lit : king size <br />
-            Vue sur mer <br />
+            Vue sur mer <br /><br/>
             Tous nos pilotis sont équipés d'une climatisation, d'une salle de
             bain privative, d'un mini-bar, d'une douche extérieur et un accés a
             la me
-          </h4>
+          </p>
         </div>
         <div className="col-md-6">
           <div className="carousel-inner">
@@ -32,16 +32,16 @@ const Chambres = () => (
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6 d-flex flex-column justify-content-center">
-            <h3 className="text-dark">Nos chambres en bungalows</h3>
-            <h4 className="text-dark">
+            <h3 className="text-dark text-center">Nos chambres en bungalows</h3><hr/>
+            <p className="fw-light mb-3">
               Descrption de nos bungalows <br />
               Capacités d'accueil : 2 personnes <br />
               Format du lit : king size <br />
-              Vue sur mer <br />
+              Vue sur mer <br /><br/>
               Tous nos bungalows sont équipés d'une climatisation, d'une salle
               de bain privative, d'un mini-bar, d'une douche extérieur et un
               accés au jardin et mer.
-            </h4>
+            </p>
           </div>
 
           <div className="col-md-6">
@@ -57,15 +57,15 @@ const Chambres = () => (
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6 d-flex flex-column justify-content-center">
-            <h3 className="text-dark">Nos chambres simple</h3>
-            <h4 className="text-dark">
+            <h3 className="text-dark text-center">Nos chambres simple</h3><hr/>
+            <p className="text-dark fw-light mb-3">
               Descrption de nos chambres simple <br />
               Capacités d'accueil : 1 à 2 personnes <br />
-              Format du lit : king size <br />
+              Format du lit : king size <br /><br/>
               Tous nos chambres simple sont équipés d'une salle de bain
               privative, d'un mini-bar, d'une douche extérieur, un accés au
               jardin et a la mer.
-            </h4>
+            </p>
           </div>
           <div className="col-md-6">
             <div className="carousel-inner">
