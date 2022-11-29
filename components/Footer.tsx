@@ -112,7 +112,7 @@ export default function Footer() {
                   id="newsletter1"
                   type="text"
                   className="form-control"
-                  placeholder="Email address"
+                  placeholder="Adresse mail"
                 />
                 <button className="btn btn-primary" type="button">
                   Souscrire
