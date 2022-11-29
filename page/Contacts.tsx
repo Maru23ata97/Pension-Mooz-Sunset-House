@@ -5,7 +5,7 @@ const Contacts = () =>
 <div> 
   <Navbar />;
   <section id="contact">
-      <div className="container my-5 bg-promary">
+      <div className="container my-5">
         <div className="row mb-5">
           <div className="col-12">
             <h1 className="fw-bold text-center">Nous contacter</h1>
@@ -44,7 +44,7 @@ const Contacts = () =>
                 <textarea
                   className="form-control"
                   id="exampleFormControlTextarea1"
-                  rows="5"
+                  
                 ></textarea>
               </div>
               <button type="submit" className="btn btn-outline-danger">
