@@ -33,7 +33,12 @@ const Slider = () => (
           'url(https://www.catlante-catamarans.com/lib/data/destinations_fr/polynesie-tahiti-raiatea-11jours/photos/05_polynesie-tahiti-coucher-soleil.jpg)',
       }}
       data-swiper-parallax="-23%"
-    ></div>
+    >
+      <video autoPlay loop style={{ transform: 'scaleX(2)' }}>
+        <source src="https://cdn.discordapp.com/attachments/1041796094948016151/1047294689029664888/production_ID_4782483_1.mp4"></source>
+      </video>
+    </div>
+
     <SwiperSlide>
       <div className="title fw-bold text-center" data-swiper-parallax="-300">
         <hr className="border border-5" />
