@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg bg-light ">
+  <nav className="navbar navbar-expand-lg bg-light text-dark ">
     <div className="container-fluid">
       <a className="navbar-brand " href="#">
         Mooz Sunset House

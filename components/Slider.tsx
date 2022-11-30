@@ -42,11 +42,11 @@ const Slider = () => (
     <SwiperSlide>
       <div className="title fw-bold text-center" data-swiper-parallax="-300">
         <hr className="border border-5" />
-        Pension MOOZ SUNSET HOUSE
+        MOOZ SUNSET HOUSE
       </div>
       <hr className="border border-5" />
       <div className="subtitle fw-bolder" data-swiper-parallax="-200">
-        Son emplacement
+        Son cadre
       </div>
       <div className="text fs-5" data-swiper-parallax="-100">
         <p>
