@@ -28,18 +28,18 @@ const Slider = () => (
     <div
       slot="container-start"
       className="parallax-bg"
-      style={{
-        'background-image':
-          'url(https://www.catlante-catamarans.com/lib/data/destinations_fr/polynesie-tahiti-raiatea-11jours/photos/05_polynesie-tahiti-coucher-soleil.jpg)',
-      }}
       data-swiper-parallax="-23%"
     >
-      <video autoPlay loop style={{ transform: 'scaleX(2)' }}>
-        <source src="https://cdn.discordapp.com/attachments/1041796094948016151/1047294689029664888/production_ID_4782483_1.mp4"></source>
-      </video>
+      <div className="overlay-layout">
+        <video autoPlay loop muted style={{ transform: 'scaleX(2)' }}>
+          <source src="https://cdn.discordapp.com/attachments/1041796094948016151/1047294689029664888/production_ID_4782483_1.mp4"></source>
+        </video>
+        <div className="overlay"></div>
+      </div>
     </div>
 
     <SwiperSlide>
+      
       <div className="title fw-bold text-center" data-swiper-parallax="-300">
         <hr className="border border-5" />
         MOOZ SUNSET HOUSE
@@ -48,7 +48,7 @@ const Slider = () => (
       <div className="subtitle fw-bolder" data-swiper-parallax="-200">
         Son cadre
       </div>
-      <div className="text fs-5" data-swiper-parallax="-100">
+      <div className="text fs-5 " data-swiper-parallax="-100">
         <p>
           Situé sur l'île de Moorea, l’établissement MOOZ SUNSET HOUSE bénéficie
           d'un emplacement idéal pour pratiquer la plongée sous-marine ou avec
@@ -58,7 +58,7 @@ const Slider = () => (
           privé ou de vous détendre dans un hamac sur la plage.
         </p>
       </div>
-      <a className="btn btn-outline-success text-info fw-bold" href="/Services">
+      <a className="btn btn-light mt-3" href="/Services">
         Nos Services
       </a>
     </SwiperSlide>
@@ -71,7 +71,7 @@ const Slider = () => (
       <div className="subtitle fw-bolder" data-swiper-parallax="-200">
         Découvre nos chambres
       </div>
-      <div className="text fs-5" data-swiper-parallax="-100">
+      <div className="text fs-5 " data-swiper-parallax="-100">
         <p>
           Les chambres sont équipées d’une télévision. Certaines comprennent un
           coin salon propice à la détente après une journée bien remplie.
@@ -85,11 +85,11 @@ const Slider = () => (
           1 km du MOOZ SUNSET HOUSE.
         </p>
       </div>
-      <a className="btn btn-outline-success text-info fw-bold" href="/Chambres">
+      <a className="btn btn-light mt-3" href="/Chambres">
         Nos chambres
       </a>
     </SwiperSlide>
-    <SwiperSlide>
+    <SwiperSlide className=" ">
       <div className="title fw-bold" data-swiper-parallax="-300">
         <hr className="border border-5" />
         L'histoire de 'Aimeho
@@ -125,7 +125,7 @@ const Slider = () => (
           </p>
         </div>
       </div>
-      <a className="btn btn-outline-success text-info fw-bold" href="/Contacts">
+      <a className="btn btn-light mt-3" href="/Contacts">
         Nous Contacter
       </a>
     </SwiperSlide>

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg bg-light text-dark ">
@@ -25,9 +26,9 @@ const Navbar = () => (
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contacts">
+            <Link className="nav-link" to="/contacts">
               Nous contacter
-            </a>
+            </Link>
           </li>
           <li className="nav-item dropdown">
             <a
@@ -41,34 +42,34 @@ const Navbar = () => (
             </a>
             <ul className="dropdown-menu">
               <li>
-                <a className="dropdown-item" href="/chambres">
+                <Link className="dropdown-item" to="/chambres">
                   Nos chambres
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="/restaurant">
+                <Link className="dropdown-item" to="/restaurant">
                   Notre Restaurant
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="/activites">
+                <Link className="dropdown-item" to="/activites">
                   Nos Activités
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="/services">
+                <Link className="dropdown-item" to="/services">
                   Nos Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="/location">
+                <Link className="dropdown-item" to="/location">
                   Nos Locations
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="#">
                   Commentaires
-                </a>
+                </Link>
               </li>
             </ul>
           </li>

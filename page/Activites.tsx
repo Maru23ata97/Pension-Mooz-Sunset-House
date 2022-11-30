@@ -33,7 +33,7 @@ const Activites = () => (
       <div className="activites my-2  text-center mb-5">
         <p className="text-start">
           Descrption : <br />
-          Durée : Une demi-journée Prix : 3000 XPF <br />
+          Durée : Une demi-journée！ Prix : 3000 XPF <br />
         </p>
       </div>
       <hr />
