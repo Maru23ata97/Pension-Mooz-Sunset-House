@@ -27,7 +27,7 @@ const Navbar = () => (
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/contacts">
-              Nous contacter
+              Nous contacter v
             </Link>
           </li>
           <li className="nav-item dropdown">
